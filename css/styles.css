@@ -1,6 +1,7 @@
 body {
     background-color: #122e1d;
     color: cornsilk;
+    text-shadow: 0 0 8px black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     margin: 0;
@@ -24,8 +25,10 @@ body {
     text-align: center;
     border: 25px solid #DDD;
     margin: 0 auto;
-
-    background: radial-gradient(black, transparent);
+    background-image: url("https://marciatravessoni.com.br/wp-content/uploads/2021/07/Happier-Than-Ever-Billie-Eilish-1-1024x1024.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #container h1 {
@@ -44,4 +47,8 @@ body {
     margin: 0 auto;
     background: radial-gradient(black, transparent);
     color: cornsilk;
+}
+
+#first-verse, #second-verse, #third-verse {
+    margin-bottom: 50px;
 }
